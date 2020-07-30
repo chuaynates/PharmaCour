@@ -1,0 +1,432 @@
+.img-fluid{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.text-carousel {
+    font-size: 80px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.text-parrafo {
+    font-size: 25px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+#band{
+    padding: 20px;
+    width: 100%;
+    background: #138496;
+}
+#band2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    background: #0c5460;
+}
+#band3{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 40px;
+    padding-left: 40px;
+    width: 100%;
+    background: #005cbf;
+}
+.icons{
+    background: #ffffff;
+    width: 50%;
+}
+.rounded-circle{
+    background: white;
+    width: 50%;
+
+}
+footer{
+    padding: 20px;
+    color:white;
+    background: #1b1e21;
+    font-size: large;
+
+}
+.text-band3{
+    color: white;
+}
+.ansi{
+    background-image: url("/fondonormas.jfif");
+    
+}
+.normas{
+    background-color: rgb(48, 45, 45);
+    padding-top: 80px;
+    padding-bottom: -10px;
+}
+.normasex{
+    background-color: rgb(32, 36, 82);
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.normascata{
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-abstracto-negro-amarillo_1051-456.jpg");   
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+.extesi{
+    background-image: url("#");
+}
+.casco:hover{
+    background-image: url("/normasimg/casco.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover; 
+   color:transparent;
+}
+
+.auditiva:hover{
+    background-image: url("/normasimg/auditiva.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   
+   color:transparent;
+
+}
+.nav123{
+    width:100%;
+    height:340px;
+    border-radius:10px ;
+    font-family:sans-serif;
+    background:#fafaf8;
+    border-bottom:4px solid rgba(0,0,0,0.1);
+}
+.lole{
+    font-size:10px;
+}
+.cont{
+    height:100%;
+    
+}
+.cont label{
+    
+    color:#174f6b;
+    font-size:12.9px;
+    
+}
+
+input[type="search"]{
+    width:500px;
+    margin:4px;
+    margin-top:70px;
+    margin-bottom:30px ;
+    padding:10px 16px;
+    border-radius:32px;
+    outline:none;
+    border:2px solid #ccd1d1;
+    background:#feffff;
+    transition:all 0.5s;
+}
+input[type="search"]:focus{
+    background:rgb(255, 255, 255);
+    widows: 6px 00px;
+    border:2px solid #39b1b1;
+}
+
+.primary-button-filled {
+    
+    border-radius: 15px;
+    font-family: Poppins-Regular,Helvetica,Arial,sans-serif;
+    color: #fff;
+    padding: 8.5px 14px;
+    text-align: center;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+.primary-button-filled:hover{
+    background-image: url('https://www.publicdomainpictures.net/pictures/160000/nahled/squares-and-cross-red-wallpaper.jpg');
+    color:transparent;
+}
+.focus-input100 {
+   
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
+    
+    pointer-events: none;
+    border: 1px solid #0004ff;
+    border-radius: 10px;
+  
+    visibility: hidden;
+    opacity: 0;
+  
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+  
+    -webkit-transform: scaleX(1.1) scaleY(1.3);
+    -moz-transform: scaleX(1.1) scaleY(1.3);
+    -ms-transform: scaleX(1.1) scaleY(1.3);
+    -o-transform: scaleX(1.1) scaleY(1.3);
+    transform: scaleX(1.1) scaleY(1.3);
+  }
+  
+  .input100:focus + .focus-input100 {
+    visibility: visible;
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  .eff-focus-selection {
+    visibility: visible;
+    opacity: 1;
+  
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  
+.respiratorio:hover{
+    background-image: url("/normasimg/respiratorio.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover; 
+   color:transparent;
+
+}
+.visual:hover{
+    background-image: url("/normasimg/visual.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover; 
+   color:transparent;
+
+}
+.guantes:hover{
+    background-image: url("/normasimg/guantes.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover; 
+   color:transparent;
+
+}
+.traje:hover{
+    background-image: url("/normasimg/trajes.gif");
+    background-position: center center;
+    -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover; 
+   color:transparent;
+
+}
+.col-sm{
+    margin: 10px;
+}
+.xpadding{
+    text-align: center;
+}
+.btn-bot{
+    position:absolute;
+    margin-left:-50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    left:50%;
+    width:100px;
+    bottom:0px;
+}
+
+.marcas{
+    background: -webkit-linear-gradient(45deg,  indigo, #3f3e3e);
+    padding-top: 100px;
+    padding-bottom: 40px;
+}
+.bolita{
+    position:fixed;
+    right: 70px;
+    bottom:22px;
+    width: 56px;
+    z-index:1000;
+}
+.bolita1{
+    position:fixed;
+    right:56px;bottom:60.2px;
+    z-index:1000; color:white;
+    font-family:Blippo, Monaco, monospace;text-shadow:1px 1px 1px grey; 
+    font-size:12px;
+    text-decoration:none;
+    
+}
+.bolita2{
+    position:fixed;right:59.3px;
+    bottom:42px;z-index:1000; 
+    color:white;font-family:Blippo, Monaco, monospace;
+    text-shadow:1px 1px 1px grey;   
+    font-size:12px;text-decoration:none ;
+}
+.marcastittle{
+    text-shadow:4px 4px 4px rgb(0, 0, 0) ;
+}
+
+.normastittle{
+    text-shadow:4px 4px 4px rgb(0, 0, 0) ;
+}
+.card-d{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.titlecard{
+    margin: 10px;
+}
+#searchbar{
+    margin-top: 57px;
+    margin-bottom: 20px;
+}
+.extended{
+    margin-bottom: 20px;
+}   
+.productos{
+    /* background: -webkit-linear-gradient(45deg,  steelblue, #3f3e3e); */
+    background-image:url("/productosheader.jpg") ;
+    padding-top: 89px;
+    padding-bottom: 50px;
+    height:100px;
+    box-shadow: 2px 2px 2px black;
+}
+.productosansi{
+    background: -webkit-linear-gradient(45deg,  rgb(49, 67, 82), #3f3e3e);
+    padding-top: 60px;
+    padding-bottom: 40px;
+    box-shadow: 5px 5px 5px white;
+   
+}
+.lista-tipo{
+    margin-bottom: 20px;
+}
+.marca-title{
+    color: black;
+}
+.lista-tabla{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quienes{
+    background-image: url("https://i.pinimg.com/originals/08/dd/6d/08dd6d8f774c6c65baca2536383e0c07.jpg");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+}
+.quienes2{
+    background-image: url("https://images.pexels.com/photos/593451/pexels-photo-593451.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    border-radius:5px;
+}
+.dataTables_filter input {
+    width: 200px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+
+}
+
+.login-bg{
+    color: white;
+    background: #2b2c2c;
+    padding: 23.5px;
+}
+.login-d{
+    margin-bottom: 80px;
+}
+.help-box{
+    border: 2px solid #927968;
+    border-radius: 5px;
+}
+.catfon{
+    background-image: url('/ladrillo.png');
+}
+body {
+    min-height: 100vh;
+}
+.x-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    background: #1b1e21;
+    font-size: large;
+}
+.text-section{
+    font-size: x-large;
+}
+.size-list{
+    padding: 3px 10px;
+}
+.detalle-producto{
+    background:-webkit-linear-gradient(45deg,  teal, #3f3e3e) !important;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    height: 10px;
+}
+.catalogo{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    height: 10px;
+}
+/* a modificar */
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.cartap{
+    background: rgb(230, 230, 230);
+    font-family:"Consolas", monospace;
+}
+.foti{
+    color:rgb(187, 185, 185);
+}
+.foti:hover{
+    color:rgb(134, 134, 160);
+}
+.catalopro{
+    box-shadow:3px 3px 3px rgb(90, 89, 89);
+}
+.cartap:hover{
+    background: rgb(194, 158, 41);
+    color:white;   
+    /* #faea0e8a */
+    text-decoration:none;
+}
+/* a modificar */
+.contenedor-detalle{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.image-border{
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}

@@ -1,0 +1,115 @@
+body{
+  background-image: url("../fondo13.png");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
+
+
+section {
+  max-width: 800px;
+  padding: 5rem;
+  margin: 0 auto;
+  border:1px solid #000000;
+  border-radius: 5px;
+  background: #ffffff;
+  display:  flex;
+  align-items: center;
+  -webkit-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 93px 0px rgba(0, 0, 0, 0.75);
+  margin-bottom: 5%;
+ 
+}
+.whats{
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  box-sizing: border-box;
+  padding-top: 18px;
+  background-color: rgb(25, 165, 36);
+  width: 80px;
+  height: 80px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 50px 0px rgba(0, 0, 0, 0.75);
+}
+section img {
+  
+  margin-right: 50%;
+  flex: 0 1 90px;
+}
+.descrip{
+margin-left:20%;
+}
+p {
+  margin: 1px;
+  text-align: left;
+}
+.left{
+  height: 140px;
+}
+.fab {
+ margin-bottom: -10%;
+  margin-top: 15px;
+  margin-left: 40%;
+  box-sizing: border-box;
+  background-color: #1875D0;
+  width:60px;
+  height: 60px;
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 8px 8px 40px 0px rgba(0, 0, 0, 0.75);
+}
+.fab:hover{
+ background-color: white;
+}
+.fab>img{
+  margin-top: 10px;
+  margin-left:10px;
+}
+#zoom-img {
+  pointer-events: none;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+#zoom {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5), 3px 3px 8px 3px rgba(0, 0, 0, 0.479);
+  border-radius: 50%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media all and (max-width:550px) {
+  section {
+      flex-direction: column;
+      width: 80%;
+      padding:0rem;
+      margin:auto;
+  }
+  section img {
+    height: 150px;
+    margin-right: 2%;
+    flex: 0 1 90px;
+  }
+  .descrip{
+    margin-left:7%;
+    }
+}
